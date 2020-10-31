@@ -1,2 +1,19 @@
-# order-history-plugin
-A re-usable component that can receive a list of orders as input and display them. Created for the takeaway-code-challenge project.
+# Order History Plugin
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
