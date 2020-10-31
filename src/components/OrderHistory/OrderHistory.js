@@ -1,4 +1,4 @@
-import OrderItem from "@/components/OrderItem/OrderItem.vue";
+import OrderItem from "../OrderItem/OrderItem.vue";
 
 export default {
   name: "OrderHistory",
