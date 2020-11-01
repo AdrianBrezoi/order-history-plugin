@@ -18,19 +18,19 @@ function install(Vue, locale) {
 export default install;
 
 const messages = {
-    'en': {
-        'title': 'Title',
-        'description': 'Description',
-        'price': 'Price',
+    "en": {
+        "title": "Title",
+        "description": "Description",
+        "price": "Price",
     },
-    'de': {
-        'title': 'Titel',
-        'description': 'Beschreibung',
-        'price': 'Preis',
+    "de": {
+        "title": "Titel",
+        "description": "Beschreibung",
+        "price": "Preis",
     },
-    'nl': {
-        'title': 'Titel',
-        'description': 'Omschrijving',
-        'price': 'Prijs',
+    "nl": {
+        "title": "Titel",
+        "description": "Omschrijving",
+        "price": "Prijs",
     }
 }
