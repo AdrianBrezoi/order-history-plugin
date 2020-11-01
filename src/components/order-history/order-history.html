@@ -1,0 +1,6 @@
+<div class="orders-container">
+    <div v-for="(order, index) in orders" :key="order.id" @click="$emit('order-selected',order.id)">
+        <OrderItem v-bind:order="order" v-bind:currency="currency"
+                   v-bind:class="(index === orders.length - 1) ? 'last': '' "/>
+    </div>
+</div>

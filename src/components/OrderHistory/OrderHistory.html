@@ -1,5 +1,0 @@
-<div class="orders-container">
-    <div v-for="order in orders" :key="order.id" @click="$emit('order-selected',order.id)">
-        <OrderItem v-bind:title="order.title" v-bind:body="order.body"/>
-    </div>
-</div>

@@ -1,4 +1,4 @@
-import OrderItem from "../OrderItem/OrderItem.vue";
+import OrderItem from "../order-item/order-item.vue";
 
 export default {
   name: "OrderHistory",
@@ -7,7 +7,6 @@ export default {
       type: Array,
       required: true,
       validator(input) {
-        console.log("VALIDATOR input", input, input.length);
         return input.length >= 2 && input.length <= 5;
       }
     },

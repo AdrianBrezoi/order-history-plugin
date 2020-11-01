@@ -1,0 +1,8 @@
+<div class="order-item-container">
+    <div class="label">{{ $t('title') }}</div>
+    <span> {{ order.title }}</span>
+    <div class="label">{{ $t('description') }}</div>
+    <span> {{ order.body }}</span>
+    <div class="label">{{ $t('price') }}</div>
+    <span> {{ order.id | formatPrice(currency,$i18n.locale) }}</span>
+</div>

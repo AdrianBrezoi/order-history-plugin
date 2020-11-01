@@ -1,0 +1,24 @@
+.order-item-container {
+    padding: 8px;
+    border-bottom: solid 2px #dfdfdf;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-template-rows: min-content min-content;
+    grid-auto-flow: row;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+
+}
+
+.label {
+    color: black;
+    font-weight: bold;
+}
+
+.label:after {
+    content: ':';
+}
+
+.last {
+    border-bottom: none;
+}
